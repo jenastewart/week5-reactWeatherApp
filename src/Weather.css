@@ -8,11 +8,10 @@
   background: #474acb;
   color: white;
   border-radius: 10px;
-  
 }
 .Weather .btn:hover {
   background: #6f7cf2;
-  curson: pointer;
+  cursor: pointer;
 }
 
 .Weather h1 {
