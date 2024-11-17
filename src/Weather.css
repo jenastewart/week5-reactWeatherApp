@@ -1,9 +1,18 @@
 .Weather {
-  border: 1px solid #dadde1;
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: #474acb;
+}
+.Weather .btn {
+  background: #474acb;
+  color: white;
+  border-radius: 10px;
+  
+}
+.Weather .btn:hover {
+  background: #6f7cf2;
+  curson: pointer;
 }
 
 .Weather h1 {
@@ -30,13 +39,13 @@
 
 .Weather .temperature {
   font-weight: 400;
-  color: rgb(35, 35, 35);
+  color: #474acb;
   font-size: 64px;
   line-height: 64px;
 }
 
 .Weather .unit {
-  color: rgb(35, 35, 35);
+  color: #474acb;
   font-size: 16px;
   font-weight: 400;
   position: relative;
